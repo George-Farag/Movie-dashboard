@@ -3,7 +3,7 @@ import pandas as pd
 import plotly.express as px
 
 # load the data
-data = pd.read_csv("/workspaces/Movie-dashboard/movie_ratings.csv")
+data = pd.read_csv("movie_ratings.csv")
 st.set_page_config(page_title="Movie Ratings Dashboard")
 #1. What's the breakdown of genres for the movies that were rated?
 st.write("Question 1")
